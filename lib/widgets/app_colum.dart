@@ -15,7 +15,10 @@ class AppColum extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-         BigText(text: text,size: 26.sp,),
+        BigText(
+          text: text,
+          size: 26.sp,
+        ),
         const SizedBox(height: 10),
         Row(
           children: [
@@ -24,7 +27,7 @@ class AppColum extends StatelessWidget {
               5,
               (index) => Icon(
                 Icons.star,
-                color: AppColors.mainColor,
+                color: AppColors.yellowColor,
                 size: 15,
               ),
             )),
